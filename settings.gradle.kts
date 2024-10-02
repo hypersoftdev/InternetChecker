@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "InternetChecker"
 include(":app")
+include(":InternetCheckerlibrary")
