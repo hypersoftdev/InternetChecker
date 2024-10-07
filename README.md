@@ -15,3 +15,50 @@ We welcome feedback, and code contributions!❤️
 Add Dependency to Your Project
 First, you'll need to add the internet checker library as a dependency to your Android project. You can do this by adding it to the build.gradle file (assuming it's hosted on a repository like Maven or JitPack). If it's a local library, you would need to include the local .aar or .jar file.
 
+
+## Gradle Integration
+
+### Step A: Add Maven Repository
+
+In your project-level **build.gradle** or **settings.gradle** file, add the JitPack repository:
+```
+repositories {
+    google()
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+```  
+
+### Step B: Add Dependencies
+
+Next, include the library in your app-level **build.gradle** file. Replace x.x.x with the latest version [![](https://jitpack.io/v/hypersoftdev/TextCraft.svg)](https://jitpack.io/#hypersoftdev/TextCraft)
+```
+implementation 'com.github.hypersoftdev:InternetChecker:1.0.0'
+
+```
+
+## Implementation
+
+### XML Example:
+
+```
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_main)
+        testingInternet()
+    }
+
+    private fun testingInternet() {
+        if (InternetChecker.isInternetAvailable(this)) {
+            Toast.makeText(this, "Internet Available", Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(this, "Internet Not Available", Toast.LENGTH_SHORT).show()
+        }
+    }
+}
+```
+
+
+
