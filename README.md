@@ -31,7 +31,7 @@ repositories {
 
 ### Step B: Add Dependencies
 
-Next, include the library in your app-level **build.gradle** file. Replace x.x.x with the latest version [![](https://jitpack.io/v/hypersoftdev/TextCraft.svg)](https://jitpack.io/#hypersoftdev/TextCraft)
+Next, include the library in your app-level **build.gradle** file. Replace x.x.x with the latest version
 ```
 implementation 'com.github.hypersoftdev:InternetChecker:1.0.0'
 
