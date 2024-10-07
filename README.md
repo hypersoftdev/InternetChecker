@@ -39,7 +39,7 @@ implementation 'com.github.hypersoftdev:InternetChecker:1.0.0'
 
 ## Implementation
 
-### XML Example:
+### Kotlin Example:
 
 ```
 class MainActivity : AppCompatActivity() {
