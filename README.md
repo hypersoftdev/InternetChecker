@@ -12,6 +12,6 @@ We welcome feedback, and code contributions!❤️
 
 # Step-by-Step Usage: 
 
-1. Add Dependency to Your Project
+Add Dependency to Your Project
 First, you'll need to add the internet checker library as a dependency to your Android project. You can do this by adding it to the build.gradle file (assuming it's hosted on a repository like Maven or JitPack). If it's a local library, you would need to include the local .aar or .jar file.
 
