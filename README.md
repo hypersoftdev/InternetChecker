@@ -31,7 +31,7 @@ repositories {
 Include the Internet Checker in your **app-level** `build.gradle` file. Replace `x.x.x` with the latest version:
 
 ```
-implementation 'com.github.hypersoftdev:CyclicSeekBar:1.0.0'
+implementation 'com.github.hypersoftdev:InternetChecker:x.x.x'
 ```
 
 ## Implementation
@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity() {
 
 This work would not have been possible without the invaluable contributions of [Kamran Khan](https://github.com/devangler). His expertise, dedication, and unwavering support have been instrumental in bringing this project to fruition.
 
-![Profile](https://github.com/hypersoftdev/CyclicSeekbar/blob/master/screens/profile_image.jpg?raw=true)
+![Profile](https://github.com/hypersoftdev/InternetChecker/blob/master/screens/profile_image.jpg?raw=true)
 
 We are deeply grateful for [Kamran Khan](https://github.com/devangler) involvement and his belief in the importance of this work. His contributions have made a significant impact, and we are honored to have had the opportunity to collaborate with him.
 
