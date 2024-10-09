@@ -1,10 +1,10 @@
-package com.sample.internetchecker
+package com.hypersoft.internetchecker
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.internetcheckerlibrary.InternetChecker
+import com.hypersoft.checker.InternetChecker
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
