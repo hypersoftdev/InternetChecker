@@ -28,7 +28,7 @@ repositories {
 
 ### Step B: Add Dependencies
 
-Include the Internet Checker in your **app-level** `build.gradle` file. Replace `x.x.x` with the latest version:
+Include the Internet Checker in your **app-level** `build.gradle` file. Replace `x.x.x` with the latest version: [![](https://jitpack.io/v/hypersoftdev/InternetChecker.svg)](https://jitpack.io/#hypersoftdev/InternetChecker)
 
 ```
 implementation 'com.github.hypersoftdev:InternetChecker:x.x.x'
